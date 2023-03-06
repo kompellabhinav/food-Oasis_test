@@ -1,0 +1,83 @@
+
+h1{
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+    color: #4cff61;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table{
+    width:100%;
+    table-layout: fixed;
+}
+
+.logo {
+    position: absolute;
+    top: 1px;
+}
+
+.uname {
+    position: absolute;
+    right: 2%;
+    top: 1px;
+    text-transform: none;
+    color: #007d19;
+    font-weight: bold;
+}
+.tbl-header{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    background-color: rgba(255,255,255,0.3);
+    width: 75%;
+    margin: 0px 50px;
+}
+
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+  
+.myButton {
+      background-color:#44c767;
+      border-radius:42px;
+      border:1px solid #18ab29;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:12px;
+      padding:12px 18px;
+      text-decoration:none;
+      text-shadow:1px 1px 0px #2f6627;
+}
+.myButton:hover {
+      background-color:#5cbf2a;
+}
+.myButton:active {
+      position:relative;
+      top:1px;
+}
+  
+body{
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
